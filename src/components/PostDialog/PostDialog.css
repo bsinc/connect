@@ -1,0 +1,55 @@
+.post-dialog-header{
+  position: relative;
+  height: 188px;
+  padding: 8px;
+  background: #00C853;
+}
+.post-dialog-header .media-button{
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  border-radius: 50%;
+  background: rgba(0,0,0,.3);
+}
+.post-dialog-body{
+  padding: 16px;
+}
+.post-dialog-share-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.post-dialog-share-button{
+  width: calc(50% - 9px);
+  height: 48px;
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+  font-size: 16px;
+  color: #000;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  background: #fff;
+  transition: .2s all ease;
+  cursor: pointer;
+}
+.post-dialog-share-button:nth-child(odd){
+  border-right: 1px solid rgba(0,0,0,.1);
+}
+.post-dialog-share-button:hover{
+  background: #f2f2f4;
+}
+.post-dialog-share-button span{
+  margin-left: 8px;
+}
+.post-dialog-add-button{
+  height: 32px;
+  width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #9d9d9f;
+}

@@ -1,0 +1,22 @@
+.messenger-sidebar{
+  width: 408px;
+  height: calc(100vh - 56px);
+  background-color: #fff;
+  border-right: 1px solid rgba(0,0,0,.1);
+}
+.messenger-tabs{
+  display: flex;
+  height: calc(100vh - 56px);
+}
+.messenger-tabs > div:nth-of-type(2){
+  display: none;
+}
+.messenger-tabs > div:nth-of-type(3){
+  flex: 1;
+}
+.messenger-tabs button{
+  width: 48px!important;
+}
+.tab-active{
+  background: #fff!important;
+}

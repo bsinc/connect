@@ -1,0 +1,21 @@
+*{
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  overflow: hidden;
+  background: #f2f2f4;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: #f0f0f2;
+
+}
+::-webkit-scrollbar-thumb {
+  background-color: #c0c0c2;
+  border-radius: 6px;
+}

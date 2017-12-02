@@ -1,0 +1,36 @@
+.app-bar{
+  height: 56px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #39B6D8;
+}
+.app-bar section:nth-of-type(1), .app-bar section:nth-of-type(3){
+  width: 20%;
+}
+.app-bar section:nth-of-type(2){
+  width: 60%;
+}
+.app-bar section:nth-of-type(3){
+  text-align: right;
+  position: relative;
+}
+.app-bar .settings-icon{
+  position: absolute;
+  right: -6px;
+  top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  background: #39b6d8;
+  border-radius: 50%;
+}
+.main-tab-content.messenger-tab{
+  display: flex;
+}
+.post-dialog > div:first-child{
+  padding: 0!important;
+  border-radius: 2px 2px 0 0;
+}
